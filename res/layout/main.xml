@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+
+    <SurfaceView
+        android:id="@+id/mSurfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+    <LinearLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/searchLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/searchText"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3" />
+
+            <Button
+                android:id="@+id/searchButton"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="搜    索" />
+        </LinearLayout>
+
+         <TextView
+            android:id="@+id/angle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+           />
+    </LinearLayout>
+
+</FrameLayout>
